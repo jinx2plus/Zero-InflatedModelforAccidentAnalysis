@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Raw data and local database exports
+*.xlsx
+*.xls
+*.xlsm
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.feather
+
+# Large or non-source artifacts
+*.zip
+*.docx
+*.pptx
+*.ipynb
+
+# Keep curated results only
+feature_importance_VERSION*.csv
+!results/feature_importance_VERSION*.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
