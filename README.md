@@ -57,6 +57,7 @@ Zero-Inflated 모델은:
 4. Model comparison & validation  
 5. Risk zone visualization  
 
+
 1. 데이터 전처리 및 변수 설계  
 2. 분포 진단  
 3. ZIP / ZINB 모델 구축  
