@@ -1,21 +1,17 @@
 # Traffic Accident Risk Modeling (Zero-Inflated Approach)
 # 교통사고 위험도 모델링 (Zero-Inflated 모델 기반)
 
-Applied statistical modeling for real-world traffic accident analysis  
-using Zero-Inflated count models.
+Applied statistical modeling for real-world traffic accident analysis using Zero-Inflated count models.
 
-Zero-Inflated 계수형 통계 모델을 활용한  
-실제 교통사고 데이터 기반 위험도 분석 프로젝트입니다.
+Zero-Inflated 계수형 통계 모델을 활용한 실제 교통사고 데이터 기반 위험도 분석 프로젝트입니다.
 
 ---
 
 ## 🚀 Project Overview | 프로젝트 개요
 
-This repository implements a Zero-Inflated modeling framework  
-to analyze accident frequency and severity in transportation networks.
+This repository implements a Zero-Inflated modeling framework to analyze accident frequency and severity in transportation networks.
 
-본 레포지토리는 교통망 내 사고 발생 빈도 및 심각도를 분석하기 위한  
-Zero-Inflated 모델링 프레임워크를 구현합니다.
+본 레포지토리는 교통망 내 사고 발생 빈도 및 심각도를 분석하기 위한 Zero-Inflated 모델링 프레임워크를 구현합니다.
 
 It is designed for:
 - Traffic safety policy analysis  
@@ -31,11 +27,9 @@ It is designed for:
 
 ## ⚙️ Why Zero-Inflated? | Zero-Inflated 모델을 사용하는 이유
 
-Traffic accident data typically contains excess zeros  
-(many locations with no accidents).
+Traffic accident data typically contains excess zeros (many locations with no accidents).
 
-교통사고 데이터는 사고가 발생하지 않은 지점이 많아  
-과잉 0 (excess zero) 특성을 가집니다.
+교통사고 데이터는 사고가 발생하지 않은 지점이 많아 과잉 0 (excess zero) 특성을 가집니다.
 
 Zero-Inflated models:
 - Separate structural zeros from sampling zeros  
